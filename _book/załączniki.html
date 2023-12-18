@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>6 Załączniki | Łagodne wprowadzenie do statystyki</title>
+  <meta name="description" content="(c) Tomasz Przechlewski / CC-BY license" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="6 Załączniki | Łagodne wprowadzenie do statystyki" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="(c) Tomasz Przechlewski / CC-BY license" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="6 Załączniki | Łagodne wprowadzenie do statystyki" />
+  
+  <meta name="twitter:description" content="(c) Tomasz Przechlewski / CC-BY license" />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="przykłady-badań-ankietowych.html"/>
+<link rel="next" href="łagodne-wprowadzenie-z-jamovi.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="index.html#przedmiot-i-metody-badań-statystycznych" id="toc-przedmiot-i-metody-badań-statystycznych"><span class="toc-section-number">1</span> Przedmiot i metody badań statystycznych</a>
+<ul>
+<li><a href="index.html#przedmiot-statystyki" id="toc-przedmiot-statystyki"><span class="toc-section-number">1.1</span> Przedmiot statystyki</a></li>
+<li><a href="index.html#podstawowe-pojęcia" id="toc-podstawowe-pojęcia"><span class="toc-section-number">1.2</span> Podstawowe pojęcia</a></li>
+<li><a href="index.html#pomiar" id="toc-pomiar"><span class="toc-section-number">1.3</span> Pomiar</a></li>
+<li><a href="index.html#rodzaje-i-sposoby-analizy-danych" id="toc-rodzaje-i-sposoby-analizy-danych"><span class="toc-section-number">1.4</span> Rodzaje i sposoby analizy danych</a></li>
+<li><a href="index.html#sposoby-pomiaru-danych-i-organizacja-badania" id="toc-sposoby-pomiaru-danych-i-organizacja-badania"><span class="toc-section-number">1.5</span> Sposoby pomiaru danych i organizacja badania</a>
+<ul>
+<li><a href="index.html#przykłady-badań" id="toc-przykłady-badań"><span class="toc-section-number">1.5.1</span> Przykłady badań</a></li>
+</ul></li>
+<li><a href="index.html#miary-częstości-chorób" id="toc-miary-częstości-chorób"><span class="toc-section-number">1.6</span> Miary częstości chorób</a></li>
+<li><a href="index.html#oprogramowanie" id="toc-oprogramowanie"><span class="toc-section-number">1.7</span> Oprogramowanie</a></li>
+</ul></li>
+<li><a href="analiza-jednej-zmiennej.html#analiza-jednej-zmiennej" id="toc-analiza-jednej-zmiennej"><span class="toc-section-number">2</span> Analiza jednej zmiennej</a>
+<ul>
+<li><a href="analiza-jednej-zmiennej.html#tablice-statystyczne" id="toc-tablice-statystyczne"><span class="toc-section-number">2.1</span> Tablice statystyczne</a></li>
+<li><a href="analiza-jednej-zmiennej.html#wykresy" id="toc-wykresy"><span class="toc-section-number">2.2</span> Wykresy</a>
+<ul>
+<li><a href="analiza-jednej-zmiennej.html#skala-nominalna" id="toc-skala-nominalna"><span class="toc-section-number">2.2.1</span> skala nominalna</a></li>
+<li><a href="analiza-jednej-zmiennej.html#skala-liczbowa" id="toc-skala-liczbowa"><span class="toc-section-number">2.2.2</span> skala liczbowa</a></li>
+</ul></li>
+<li><a href="analiza-jednej-zmiennej.html#florence-nightingale" id="toc-florence-nightingale"><span class="toc-section-number">2.3</span> Florence Nightingale</a></li>
+<li><a href="analiza-jednej-zmiennej.html#analiza-parametryczna" id="toc-analiza-parametryczna"><span class="toc-section-number">2.4</span> Analiza parametryczna</a>
+<ul>
+<li><a href="analiza-jednej-zmiennej.html#miary-położenia" id="toc-miary-położenia"><span class="toc-section-number">2.4.1</span> Miary położenia</a></li>
+<li><a href="analiza-jednej-zmiennej.html#miary-zmienności" id="toc-miary-zmienności"><span class="toc-section-number">2.4.2</span> Miary zmienności</a></li>
+<li><a href="analiza-jednej-zmiennej.html#miary-asymetrii" id="toc-miary-asymetrii"><span class="toc-section-number">2.4.3</span> Miary asymetrii</a></li>
+<li><a href="analiza-jednej-zmiennej.html#parametryczna-analiza-struktury-w-jednym-zdaniu" id="toc-parametryczna-analiza-struktury-w-jednym-zdaniu"><span class="toc-section-number">2.4.4</span> (Parametryczna) analiza struktury w jednym zdaniu</a></li>
+</ul></li>
+<li><a href="analiza-jednej-zmiennej.html#porównanie-wielu-rozkładów" id="toc-porównanie-wielu-rozkładów"><span class="toc-section-number">2.5</span> Porównanie wielu rozkładów</a>
+<ul>
+<li><a href="analiza-jednej-zmiennej.html#wykres-pudełkowy" id="toc-wykres-pudełkowy"><span class="toc-section-number">2.5.1</span> Wykres pudełkowy</a></li>
+</ul></li>
+</ul></li>
+<li><a href="łagodne-wprowadzenie-do-wnioskowanie-statystycznego.html#łagodne-wprowadzenie-do-wnioskowanie-statystycznego" id="toc-łagodne-wprowadzenie-do-wnioskowanie-statystycznego"><span class="toc-section-number">3</span> Łagodne wprowadzenie do wnioskowanie statystycznego</a>
+<ul>
+<li><a href="łagodne-wprowadzenie-do-wnioskowanie-statystycznego.html#przykładowy-problem-nr-1" id="toc-przykładowy-problem-nr-1"><span class="toc-section-number">3.1</span> Przykładowy problem nr 1</a></li>
+<li><a href="łagodne-wprowadzenie-do-wnioskowanie-statystycznego.html#przykładowy-problem-nr-2" id="toc-przykładowy-problem-nr-2"><span class="toc-section-number">3.2</span> Przykładowy problem nr 2</a></li>
+<li><a href="łagodne-wprowadzenie-do-wnioskowanie-statystycznego.html#rozkład-normalny" id="toc-rozkład-normalny"><span class="toc-section-number">3.3</span> Rozkład normalny</a></li>
+<li><a href="łagodne-wprowadzenie-do-wnioskowanie-statystycznego.html#wnioskowanie-statystyczne-interferance" id="toc-wnioskowanie-statystyczne-interferance"><span class="toc-section-number">3.4</span> Wnioskowanie statystyczne (<em>interferance</em>)</a>
+<ul>
+<li><a href="łagodne-wprowadzenie-do-wnioskowanie-statystycznego.html#estymacja-punktowa" id="toc-estymacja-punktowa"><span class="toc-section-number">3.4.1</span> Estymacja punktowa</a></li>
+<li><a href="łagodne-wprowadzenie-do-wnioskowanie-statystycznego.html#estymacja-przedziałowa" id="toc-estymacja-przedziałowa"><span class="toc-section-number">3.4.2</span> Estymacja przedziałowa</a></li>
+<li><a href="łagodne-wprowadzenie-do-wnioskowanie-statystycznego.html#testowanie-hipotez" id="toc-testowanie-hipotez"><span class="toc-section-number">3.4.3</span> Testowanie hipotez</a></li>
+<li><a href="łagodne-wprowadzenie-do-wnioskowanie-statystycznego.html#testy-nieparametryczne" id="toc-testy-nieparametryczne"><span class="toc-section-number">3.4.4</span> Testy nieparametryczne</a></li>
+</ul></li>
+<li><a href="łagodne-wprowadzenie-do-wnioskowanie-statystycznego.html#słownik-terminów-które-warto-znać" id="toc-słownik-terminów-które-warto-znać"><span class="toc-section-number">3.5</span> Słownik terminów które warto znać</a></li>
+</ul></li>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#analiza-współzależności-pomiędzy-zmiennymi" id="toc-analiza-współzależności-pomiędzy-zmiennymi"><span class="toc-section-number">4</span> Analiza współzależności pomiędzy zmiennymi</a>
+<ul>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#dwie-zmienne-nominalne" id="toc-dwie-zmienne-nominalne"><span class="toc-section-number">4.1</span> Dwie zmienne nominalne</a>
+<ul>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#ryzyko-względne-oraz-iloraz-szans" id="toc-ryzyko-względne-oraz-iloraz-szans"><span class="toc-section-number">4.1.1</span> Ryzyko względne oraz iloraz szans</a></li>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#przedziały-ufności-dla-ryzyka-względnego-oraz-ilorazu-szans" id="toc-przedziały-ufności-dla-ryzyka-względnego-oraz-ilorazu-szans"><span class="toc-section-number">4.1.2</span> Przedziały ufności dla ryzyka względnego oraz ilorazu szans</a></li>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#tabele-wielodzielcze" id="toc-tabele-wielodzielcze"><span class="toc-section-number">4.1.3</span> Tabele wielodzielcze</a></li>
+</ul></li>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#zmienna-liczbowa-i-zmienna-nominalna" id="toc-zmienna-liczbowa-i-zmienna-nominalna"><span class="toc-section-number">4.2</span> Zmienna liczbowa i zmienna nominalna</a>
+<ul>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#test-t-studenta" id="toc-test-t-studenta"><span class="toc-section-number">4.2.1</span> test <span class="math inline">\(t\)</span>-Studenta</a></li>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#testowanie-normalności" id="toc-testowanie-normalności"><span class="toc-section-number">4.2.2</span> Testowanie normalności</a></li>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#test-u-manna-whitneya" id="toc-test-u-manna-whitneya"><span class="toc-section-number">4.2.3</span> test U Manna-Whitneya</a></li>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#test-anova" id="toc-test-anova"><span class="toc-section-number">4.2.4</span> test ANOVA</a></li>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#test-kruskalla-wallisa" id="toc-test-kruskalla-wallisa"><span class="toc-section-number">4.2.5</span> test Kruskalla-Wallisa</a></li>
+</ul></li>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#zmienna-liczbowa-i-zmienne-liczbowe-lub-nominalne" id="toc-zmienna-liczbowa-i-zmienne-liczbowe-lub-nominalne"><span class="toc-section-number">4.3</span> Zmienna liczbowa i zmienne liczbowe lub nominalne</a>
+<ul>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#przypadek-szczególny-dwie-zmienne-liczbowe" id="toc-przypadek-szczególny-dwie-zmienne-liczbowe"><span class="toc-section-number">4.3.1</span> Przypadek szczególny: dwie zmienne liczbowe</a></li>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#korelacyjny-wykres-rozrzutu-korelogram-wykres-xy-w-excelu-scatter-plot" id="toc-korelacyjny-wykres-rozrzutu-korelogram-wykres-xy-w-excelu-scatter-plot"><span class="toc-section-number">4.3.2</span> Korelacyjny wykres rozrzutu (korelogram, wykres XY w Excelu, scatter plot)</a></li>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#pomiar-siły-zależności-współczynnik-korelacji-liniowej-pearsona" id="toc-pomiar-siły-zależności-współczynnik-korelacji-liniowej-pearsona"><span class="toc-section-number">4.3.3</span> Pomiar siły zależności: współczynnik korelacji liniowej Pearsona</a></li>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#macierz-korelacji" id="toc-macierz-korelacji"><span class="toc-section-number">4.3.4</span> Macierz korelacji</a></li>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#pomiar-siły-zależności-regresja-liniowa" id="toc-pomiar-siły-zależności-regresja-liniowa"><span class="toc-section-number">4.3.5</span> Pomiar siły zależności: regresja liniowa</a></li>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#regresja-prosta" id="toc-regresja-prosta"><span class="toc-section-number">4.3.6</span> Regresja prosta</a></li>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#przypadek-ogólny-regresja-wieloraka" id="toc-przypadek-ogólny-regresja-wieloraka"><span class="toc-section-number">4.3.7</span> Przypadek ogólny: regresja wieloraka</a></li>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#zmienne-zero-jedynkowe" id="toc-zmienne-zero-jedynkowe"><span class="toc-section-number">4.3.8</span> Zmienne zero-jedynkowe</a></li>
+</ul></li>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#przypadek-specjalny-regresja-logistyczna" id="toc-przypadek-specjalny-regresja-logistyczna"><span class="toc-section-number">4.4</span> Przypadek specjalny: regresja logistyczna</a></li>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#przypadek-specjalny-dwie-zmienne-co-najmniej-porządkowe" id="toc-przypadek-specjalny-dwie-zmienne-co-najmniej-porządkowe"><span class="toc-section-number">4.5</span> Przypadek specjalny: dwie zmienne co najmniej porządkowe</a>
+<ul>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#pomiar-siły-zależności-współczynnik-korelacji-rang" id="toc-pomiar-siły-zależności-współczynnik-korelacji-rang"><span class="toc-section-number">4.5.1</span> Pomiar siły zależności: współczynnik korelacji rang</a></li>
+</ul></li>
+<li><a href="analiza-współzależności-pomiędzy-zmiennymi.html#podsumowanie" id="toc-podsumowanie"><span class="toc-section-number">4.6</span> Podsumowanie</a></li>
+</ul></li>
+<li><a href="przykłady-badań-ankietowych.html#przykłady-badań-ankietowych" id="toc-przykłady-badań-ankietowych"><span class="toc-section-number">5</span> Przykłady badań ankietowych</a>
+<ul>
+<li><a href="przykłady-badań-ankietowych.html#jak-zacząć-badanie" id="toc-jak-zacząć-badanie"><span class="toc-section-number">5.1</span> Jak zacząć badanie?</a>
+<ul>
+<li><a href="przykłady-badań-ankietowych.html#co-chcemy-ustalić" id="toc-co-chcemy-ustalić"><span class="toc-section-number">5.1.1</span> Co chcemy ustalić?</a></li>
+<li><a href="przykłady-badań-ankietowych.html#co-i-jak-mamy-mierzyć" id="toc-co-i-jak-mamy-mierzyć"><span class="toc-section-number">5.1.2</span> Co i jak mamy mierzyć?</a></li>
+<li><a href="przykłady-badań-ankietowych.html#mierzenie-twardych-faktów-vs-mierzenia-przekonań" id="toc-mierzenie-twardych-faktów-vs-mierzenia-przekonań"><span class="toc-section-number">5.1.3</span> Mierzenie twardych faktów vs mierzenia przekonań</a></li>
+<li><a href="przykłady-badań-ankietowych.html#pomiar-przekonań-wartości-i-postaw" id="toc-pomiar-przekonań-wartości-i-postaw"><span class="toc-section-number">5.1.4</span> Pomiar przekonań, wartości i postaw</a></li>
+<li><a href="przykłady-badań-ankietowych.html#skala-likerta" id="toc-skala-likerta"><span class="toc-section-number">5.1.5</span> Skala Likerta</a></li>
+<li><a href="przykłady-badań-ankietowych.html#skala-pomiarowainwentarzkwestionariusz" id="toc-skala-pomiarowainwentarzkwestionariusz"><span class="toc-section-number">5.1.6</span> Skala pomiarowa/inwentarz/kwestionariusz</a></li>
+<li><a href="przykłady-badań-ankietowych.html#model-pomiaru" id="toc-model-pomiaru"><span class="toc-section-number">5.1.7</span> Model pomiaru</a></li>
+</ul></li>
+<li><a href="przykłady-badań-ankietowych.html#przykład-1-wiedza-na-temat-szkodliwości-palenia-i-jej-uwarunkowania-wśród-studentów-psw" id="toc-przykład-1-wiedza-na-temat-szkodliwości-palenia-i-jej-uwarunkowania-wśród-studentów-psw"><span class="toc-section-number">5.2</span> Przykład 1: Wiedza na temat szkodliwości palenia i jej uwarunkowania wśród studentów PSW</a>
+<ul>
+<li><a href="przykłady-badań-ankietowych.html#cel" id="toc-cel"><span class="toc-section-number">5.2.1</span> Cel</a></li>
+<li><a href="przykłady-badań-ankietowych.html#metoda" id="toc-metoda"><span class="toc-section-number">5.2.2</span> Metoda</a></li>
+<li><a href="przykłady-badań-ankietowych.html#zastosowane-metody-statystyczne" id="toc-zastosowane-metody-statystyczne"><span class="toc-section-number">5.2.3</span> Zastosowane metody statystyczne</a></li>
+<li><a href="przykłady-badań-ankietowych.html#metryczka-analiza-respondentów" id="toc-metryczka-analiza-respondentów"><span class="toc-section-number">5.2.4</span> Metryczka (analiza respondentów)</a></li>
+<li><a href="przykłady-badań-ankietowych.html#weryfikacja-hipotezy-1" id="toc-weryfikacja-hipotezy-1"><span class="toc-section-number">5.2.5</span> Weryfikacja hipotezy 1</a></li>
+<li><a href="przykłady-badań-ankietowych.html#weryfikacja-hipotezy-2" id="toc-weryfikacja-hipotezy-2"><span class="toc-section-number">5.2.6</span> Weryfikacja hipotezy 2</a></li>
+<li><a href="przykłady-badań-ankietowych.html#weryfikacja-hipotez-35" id="toc-weryfikacja-hipotez-35"><span class="toc-section-number">5.2.7</span> Weryfikacja hipotez 3–5</a></li>
+<li><a href="przykłady-badań-ankietowych.html#wnioski" id="toc-wnioski"><span class="toc-section-number">5.2.8</span> Wnioski</a></li>
+</ul></li>
+<li><a href="przykłady-badań-ankietowych.html#przykład-2-depresja-i-jej-uwarunkowania-wśród-studentów-psw" id="toc-przykład-2-depresja-i-jej-uwarunkowania-wśród-studentów-psw"><span class="toc-section-number">5.3</span> Przykład 2: Depresja i jej uwarunkowania wśród studentów PSW</a>
+<ul>
+<li><a href="przykłady-badań-ankietowych.html#cel-1" id="toc-cel-1"><span class="toc-section-number">5.3.1</span> Cel</a></li>
+<li><a href="przykłady-badań-ankietowych.html#metoda-1" id="toc-metoda-1"><span class="toc-section-number">5.3.2</span> Metoda</a></li>
+<li><a href="przykłady-badań-ankietowych.html#metryczka" id="toc-metryczka"><span class="toc-section-number">5.3.3</span> Metryczka</a></li>
+<li><a href="przykłady-badań-ankietowych.html#weryfikacja-hipotezy-1-1" id="toc-weryfikacja-hipotezy-1-1"><span class="toc-section-number">5.3.4</span> Weryfikacja hipotezy 1</a></li>
+<li><a href="przykłady-badań-ankietowych.html#weryfikacja-hipotez-24" id="toc-weryfikacja-hipotez-24"><span class="toc-section-number">5.3.5</span> Weryfikacja hipotez 2–4</a></li>
+<li><a href="przykłady-badań-ankietowych.html#depresja-a-płeć" id="toc-depresja-a-płeć"><span class="toc-section-number">5.3.6</span> Depresja a płeć</a></li>
+<li><a href="przykłady-badań-ankietowych.html#depresja-a-staż" id="toc-depresja-a-staż"><span class="toc-section-number">5.3.7</span> Depresja a staż</a></li>
+<li><a href="przykłady-badań-ankietowych.html#depresja-a-rodzaj-miejsca-pracy" id="toc-depresja-a-rodzaj-miejsca-pracy"><span class="toc-section-number">5.3.8</span> Depresja a rodzaj miejsca pracy</a></li>
+</ul></li>
+<li><a href="przykłady-badań-ankietowych.html#wnioski-1" id="toc-wnioski-1"><span class="toc-section-number">5.4</span> Wnioski</a></li>
+<li><a href="przykłady-badań-ankietowych.html#przykład-3" id="toc-przykład-3"><span class="toc-section-number">5.5</span> Przykład 3:</a></li>
+</ul></li>
+<li><a href="załączniki.html#załączniki" id="toc-załączniki"><span class="toc-section-number">6</span> Załączniki</a>
+<ul>
+<li><a href="załączniki.html#ankieta-depresja-skala-depresji-becka" id="toc-ankieta-depresja-skala-depresji-becka"><span class="toc-section-number">6.1</span> Ankieta Depresja: Skala Depresji Becka</a>
+<ul>
+<li><a href="załączniki.html#pytania" id="toc-pytania"><span class="toc-section-number">6.1.1</span> Pytania</a></li>
+<li><a href="załączniki.html#nazwy-pytań" id="toc-nazwy-pytań"><span class="toc-section-number">6.1.2</span> Nazwy pytań:</a></li>
+<li><a href="załączniki.html#interpretacja-wyników" id="toc-interpretacja-wyników"><span class="toc-section-number">6.1.3</span> Interpretacja wyników</a></li>
+<li><a href="załączniki.html#źródło" id="toc-źródło"><span class="toc-section-number">6.1.4</span> Źródło</a></li>
+</ul></li>
+<li><a href="załączniki.html#ankieta-palenie" id="toc-ankieta-palenie"><span class="toc-section-number">6.2</span> Ankieta Palenie</a>
+<ul>
+<li><a href="załączniki.html#pytania-1" id="toc-pytania-1"><span class="toc-section-number">6.2.1</span> Pytania</a></li>
+</ul></li>
+</ul></li>
+<li><a href="łagodne-wprowadzenie-z-jamovi.html#łagodne-wprowadzenie-z-jamovi" id="toc-łagodne-wprowadzenie-z-jamovi"><span class="toc-section-number">7</span> Łagodne wprowadzenie z Jamovi</a>
+<ul>
+<li><a href="łagodne-wprowadzenie-z-jamovi.html#podstawy-pracy-z-jamovi" id="toc-podstawy-pracy-z-jamovi"><span class="toc-section-number">7.1</span> Podstawy pracy z Jamovi</a></li>
+<li><a href="łagodne-wprowadzenie-z-jamovi.html#przykład-analiza-ankiety-satysfakcjawiedza-o-paleniuzamiar-odejścia" id="toc-przykład-analiza-ankiety-satysfakcjawiedza-o-paleniuzamiar-odejścia"><span class="toc-section-number">7.2</span> Przykład: analiza ankiety satysfakcja–wiedza o paleniu–zamiar odejścia</a>
+<ul>
+<li><a href="łagodne-wprowadzenie-z-jamovi.html#wczytanie-danych" id="toc-wczytanie-danych"><span class="toc-section-number">7.2.1</span> Wczytanie danych</a></li>
+<li><a href="łagodne-wprowadzenie-z-jamovi.html#przekodowanie-danych" id="toc-przekodowanie-danych"><span class="toc-section-number">7.2.2</span> Przekodowanie danych</a></li>
+<li><a href="łagodne-wprowadzenie-z-jamovi.html#wyliczenie-nowych-zmiennych" id="toc-wyliczenie-nowych-zmiennych"><span class="toc-section-number">7.2.3</span> Wyliczenie nowych zmiennych</a></li>
+<li><a href="łagodne-wprowadzenie-z-jamovi.html#analiza-struktury" id="toc-analiza-struktury"><span class="toc-section-number">7.2.4</span> Analiza struktury</a></li>
+<li><a href="łagodne-wprowadzenie-z-jamovi.html#analiza-zależności-zmienne-nominalne" id="toc-analiza-zależności-zmienne-nominalne"><span class="toc-section-number">7.2.5</span> Analiza zależności: zmienne nominalne</a></li>
+<li><a href="łagodne-wprowadzenie-z-jamovi.html#analiza-zależności-zmienna-liczbowazmienna-nominalna" id="toc-analiza-zależności-zmienna-liczbowazmienna-nominalna"><span class="toc-section-number">7.2.6</span> Analiza zależności: zmienna liczbowa/zmienna nominalna</a></li>
+<li><a href="łagodne-wprowadzenie-z-jamovi.html#analiza-zależności-zmienna-liczbowazmienna-liczbowa-lub-nominalna" id="toc-analiza-zależności-zmienna-liczbowazmienna-liczbowa-lub-nominalna"><span class="toc-section-number">7.2.7</span> Analiza zależności: zmienna liczbowa/zmienna liczbowa lub nominalna</a></li>
+<li><a href="łagodne-wprowadzenie-z-jamovi.html#regresja-logistyczna" id="toc-regresja-logistyczna"><span class="toc-section-number">7.2.8</span> Regresja logistyczna</a></li>
+</ul></li>
+</ul></li>
+<li><a href="hello-world.html#hello-world" id="toc-hello-world"><span class="toc-section-number">8</span> Hello World</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Łagodne wprowadzenie do statystyki</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="załączniki" class="section level1" number="6">
+<h1><span class="header-section-number">6</span> Załączniki</h1>
+<div id="ankieta-depresja-skala-depresji-becka" class="section level2" number="6.1">
+<h2><span class="header-section-number">6.1</span> Ankieta Depresja: Skala Depresji Becka</h2>
+<div id="pytania" class="section level3" number="6.1.1">
+<h3><span class="header-section-number">6.1.1</span> Pytania</h3>
+<p>Pytanie 1</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Nie jestem smutny ani przygnębiony.</li>
+<li>Odczuwam często smutek, przygnębienie</li>
+<li>Przeżywam stale smutek, przygnębienie i nie mogę uwolnić się od tych przeżyć.</li>
+<li>Jestem stale tak smutny i nieszczęśliwy, że jest to nie do wytrzymania.</li>
+</ol>
+<p>Pytanie 2</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Nie przejmuję się zbytnio przyszłością.</li>
+<li>Często martwię się o przyszłość.</li>
+<li>Obawiam się, że w przyszłości nic dobrego mnie nie czeka.</li>
+<li>Czuję, że przyszłość jest beznadziejna i nic tego nie zmieni.</li>
+</ol>
+<p>Pytanie 3</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Sądzę, że nie popełniam większych zaniedbań.</li>
+<li>Sądzę, że czynię więcej zaniedbań niż inni.</li>
+<li>Kiedy spoglądam na to, co robiłem, widzę mnóstwo błędów i zaniedbań.</li>
+<li>Jestem zupełnie niewydolny i wszystko robię źle.</li>
+</ol>
+<p>Pytanie 4</p>
+<ol start="0" style="list-style-type: decimal">
+<li>To, co robię, sprawia mi przyjemność.</li>
+<li>Nie cieszy mnie to, co robię.</li>
+<li>Nic mi teraz nie daje prawdziwego zadowolenia.</li>
+<li>Nie potrafię przeżywać zadowolenia i przyjemności; wszystko mnie nuży.</li>
+</ol>
+<p>Pytanie 5</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Nie czuję się winnym ani wobec siebie, ani wobec innych.</li>
+<li>Dość często miewam wyrzuty sumienia.</li>
+<li>Często czuję, że zawiniłem.</li>
+<li>Stale czuję się winny.</li>
+</ol>
+<p>Pytanie 6</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Sądzę, że nie zasługuję na karę</li>
+<li>Sądzę, że zasługuję na karę</li>
+<li>Spodziewam się ukarania</li>
+<li>Wiem, że jestem karany (lub ukarany)</li>
+</ol>
+<p>Pytanie 7</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Jestem z siebie zadowolony</li>
+<li>Nie jestem z siebie zadowolony</li>
+<li>Czuję do siebie niechęć</li>
+<li>Nienawidzę siebie</li>
+</ol>
+<p>Pytanie 8</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Nie czuję się gorszy od innych ludzi</li>
+<li>Zarzucam sobie, że jestem nieudolny i popełniam błędy</li>
+<li>Stale potępiam siebie za popełnione błędy</li>
+<li>Winię siebie za wszelkie zło, które istnieje</li>
+</ol>
+<p>Pytanie 9</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Nie myślę o odebraniu sobie życia</li>
+<li>Myślę o samobójstwie — ale nie mógłbym tego dokonać</li>
+<li>Pragnę odebrać sobie życie</li>
+<li>Popełnię samobójstwo, jak będzie odpowiednia sposobność</li>
+</ol>
+<p>Pytanie 10</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Nie płaczę częściej niż zwykle</li>
+<li>Płaczę częściej niż dawniej</li>
+<li>Ciągle chce mi się płakać</li>
+<li>Chciałbym płakać, lecz nie jestem w stanie</li>
+</ol>
+<p>Pytanie 11</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Nie jestem bardziej podenerwowany niż dawniej</li>
+<li>Jestem bardziej nerwowy i przykry niż dawniej</li>
+<li>Jestem stale zdenerwowany lub rozdrażniony</li>
+<li>Wszystko, co dawniej mnie drażniło, stało się obojętne</li>
+</ol>
+<p>Pytanie 12</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Ludzie interesują mnie jak dawniej</li>
+<li>Interesuję się ludźmi mniej niż dawniej</li>
+<li>Utraciłem większość zainteresowań innymi ludźmi</li>
+<li>Utraciłem wszelkie zainteresowanie innymi ludźmi</li>
+</ol>
+<p>Pytanie 13</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Decyzje podejmuję łatwo, tak jak dawniej</li>
+<li>Częściej niż kiedyś odwlekam podjęcie decyzji</li>
+<li>Mam dużo trudności z podjęciem decyzji</li>
+<li>Nie jestem w stanie podjąć żadnej decyzji</li>
+</ol>
+<p>Pytanie 14</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Sądzę, że wyglądam nie gorzej niż dawniej</li>
+<li>Martwię się tym, że wyglądam staro i nieatrakcyjnie</li>
+<li>Czuję, że wyglądam coraz gorzej</li>
+<li>Jestem przekonany, że wyglądam okropnie i odpychająco</li>
+</ol>
+<p>Pytanie 15</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Mogę pracować jak dawniej</li>
+<li>Z trudem rozpoczynam każdą czynność</li>
+<li>Z wielkim wysiłkiem zmuszam się do zrobienia czegokolwiek</li>
+<li>Nie jestem w stanie nic zrobić</li>
+</ol>
+<p>Pytanie 16</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Sypiam dobrze, jak zwykle</li>
+<li>Sypiam gorzej niż dawniej</li>
+<li>Rano budzę się 1–2 godziny za wcześnie i trudno jest mi ponownie usnąć</li>
+<li>Budzę się kilka godzin za wcześnie i nie mogę usnąć</li>
+</ol>
+<p>Pytanie 17</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Nie męczę się bardziej niż dawniej</li>
+<li>Męczę się znacznie łatwiej niż poprzednio.</li>
+<li>Męczę się wszystkim, co robię.</li>
+<li>Jestem zbyt zmęczony, aby cokolwiek robić.</li>
+</ol>
+<p>Pytanie 18</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Mam apetyt nie gorszy niż dawniej</li>
+<li>Mam trochę gorszy apetyt</li>
+<li>Apetyt mam wyraźnie gorszy</li>
+<li>Nie mam w ogóle apetytu</li>
+</ol>
+<p>Pytanie 19</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Nie tracę na wadze (w okresie ostatniego miesiąca)</li>
+<li>Straciłem na wadze więcej niż 2 kg</li>
+<li>Straciłem na wadze więcej niż 4 kg</li>
+<li>Straciłem na wadze więcej niż 6 kg</li>
+</ol>
+<p>Pytanie 20</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Nie martwię się o swoje zdrowie bardziej niż zawsze</li>
+<li>Martwię się swoimi dolegliwościami, mam rozstrój żołądka, zaparcie, bóle</li>
+<li>Stan mojego zdrowia bardzo mnie martwi, często o tym myślę</li>
+<li>Tak bardzo martwię się o swoje zdrowie, że nie mogę o niczym innym myśleć</li>
+</ol>
+<p>Pytanie 21</p>
+<ol start="0" style="list-style-type: decimal">
+<li>Moje zainteresowania seksualne nie uległy zmianom</li>
+<li>Jestem mniej zainteresowany sprawami płci (seksu)</li>
+<li>Problemy płciowe wyraźnie mniej mnie interesują</li>
+<li>Utraciłem wszelkie zainteresowanie sprawami seksu</li>
+</ol>
+</div>
+<div id="nazwy-pytań" class="section level3" number="6.1.2">
+<h3><span class="header-section-number">6.1.2</span> Nazwy pytań:</h3>
+<p>Odczuwanie smutku i przygnębienia (1)
+Martwienie się o przyszłość (2)
+Uważasz, że zaniedbujesz swoje obowiązki? (3)
+Jesteś zadowolony z siebie? (4)
+Czy często masz poczucie winy? (5)
+Czy zasługujesz na karę? (6)
+Zadowolenie z siebie (7)
+Czy czujesz się gorszy od innych? (8)
+Czy masz myśli samobójcze? (9)
+Często chce Ci się płakać? (10)
+Jesteś ostatnio bardziej nerwowy i rozdrażniony? (11)
+Czy zmieniło się coś w Twoim zainteresowaniu innymi ludźmi? (12)
+Czy ostatnio miewasz większe problemy z podejmowaniem różnych decyzji? (13)
+Czy uważasz, że wyglądasz gorzej i mniej atrakcyjnie niż kiedyś? (14)
+Czy masz większe trudności z wykonywaniem różnych prac i zadań? (15)
+Masz kłopoty ze snem? (16)
+Czy męczysz się bardziej niż zwykle? (17)
+Czy masz kłopoty z apetytem? (18)
+W ciągu ostatniego miesiąca nie stosowałem diety, aby schudnąć,
+lecz straciłem na wadze (19)
+Czy ostatnio bardziej martwisz się swoim stanem zdrowia? (20)
+Czy masz kłopoty z potencją? (21)</p>
+</div>
+<div id="interpretacja-wyników" class="section level3" number="6.1.3">
+<h3><span class="header-section-number">6.1.3</span> Interpretacja wyników</h3>
+<ol style="list-style-type: decimal">
+<li>00–11 (brak depresji)</li>
+<li>12–19 (depresja łagodna)</li>
+<li>20–25 (depresja umiarkowana)</li>
+<li>26–63 (depresja ciężka)</li>
+</ol>
+</div>
+<div id="źródło" class="section level3" number="6.1.4">
+<h3><span class="header-section-number">6.1.4</span> Źródło</h3>
+<p><a href="https://psychiatra.bydgoszcz.eu/publikacje-dla-pacjenta/depresja/skala-depresji-becka/" class="uri">https://psychiatra.bydgoszcz.eu/publikacje-dla-pacjenta/depresja/skala-depresji-becka/</a></p>
+<p><a href="http://centrum-psychologiczne.com/files/files/Skala_Depresji_Becka_word.pdf" class="uri">http://centrum-psychologiczne.com/files/files/Skala_Depresji_Becka_word.pdf</a></p>
+</div>
+</div>
+<div id="ankieta-palenie" class="section level2" number="6.2">
+<h2><span class="header-section-number">6.2</span> Ankieta Palenie</h2>
+<p>Poziom wiedzy personelu pielęgniarskiego na temat szkodliwości palenia tytoniu</p>
+<div id="pytania-1" class="section level3" number="6.2.1">
+<h3><span class="header-section-number">6.2.1</span> Pytania</h3>
+<ol style="list-style-type: decimal">
+<li><p>Płeć
+□ Kobieta
+□ Mężczyzna</p></li>
+<li><p>Wiek</p></li>
+<li><p>Pochodzenie
+□ wieś
+□ Miasto do 20 tys. mieszkańców
+□ Miasto powyżej 20 tyś mieszkańców</p></li>
+<li><p>Wykształcenie
+□ Średnie medyczne
+□ Licencjat pielęgniarstwa
+□ Magister pielęgniarstwa
+□ Inne wyższe</p></li>
+<li><p>Staż pracy
+□ Mniej niż rok
+□ 1-10 lat
+□ 10-15 lat
+□ Więcej niż 15 lat</p></li>
+<li><p>Miejsce pracy
+□ Oddział zabiegowy
+□ Oddział zachowawczy
+□ Przychodnia/poradnia</p></li>
+<li><p>Czy kiedykolwiek paliłeś/aś papierosy?
+□ Paliłem/łam
+□ W dalszym ciągu palę
+□ Nigdy nie paliłem/am</p></li>
+<li><p>Od ilu lat palisz?
+□ Nie palę/Nie dotyczy
+□ Mniej niż rok
+□ 1-10 lat
+□ 11-15 lat
+□ Więcej niż 15 l</p></li>
+<li><p>Czy zdarza Ci się palić w miejscu pracy?
+□ Tak
+□ Nie
+□ Nie dotyczy</p></li>
+<li><p>Czy próbowałeś kiedykolwiek rzucić palenie?
+□ Tak, udało się
+□ Tak, ale wróciłem/am do nałogu
+□ Nie
+□ Nie dotyczy</p></li>
+<li><p>Czy paląc przyznajesz się do uzależnienia
+□ Tak
+□ Nie
+□ Nie dotyczy</p></li>
+<li><p>Uważasz, że bardziej szkodliwe dla zdrowia jest:
+□ Palenie czynne - dym tytoniowy wdychany bezpośrednio przez palacza
+□ Palenie bierne-boczny strumień dymu
+☒ Każda forma kontaktu z dymem jest równie szkodliwa
+□ Nie wiem/Nie mam zdania</p></li>
+<li><p>Czy uważasz,że przepisy prawa powinny zabraniać palenia w obecności dzieci
+poniżej 15 roku życia?
+□ Tak
+□ Nie
+□ Nie wiem/nie mam zdania</p></li>
+<li><p>Czy przerwa na papierosa pomaga Ci w sytuacjach stresowych?
+□ Tak
+□ Nie
+□ Nie dotyczy</p></li>
+<li><p>Czy palenie nikotyny sprawia Ci przyjemność?
+□ Tak
+□ Nie
+□ Nie dotyczy</p></li>
+<li><p>Jakie według Ciebie choroby układu oddechowego mogą być spowodowane
+bezpośrednio przez palenie papierosów?(wielokrotnego)
+☒ Przewlekła obturacyjna choroba płuc
+☒ Astma oskrzelowa
+☒ Alergie wziewne
+□ Gruźlica
+□ Zapalenie płuc
+☒ Przewlekłe zapalenie oskrzeli
+☒ Infekcje dróg oddechowych
+□ Palenie nie powoduje chorób układu oddechowego
+□ Nie wiem</p></li>
+<li><p>Jakie według Ciebie choroby kardiologiczne mogą być spowodowane
+bezpośrednio przez palenie papierosów? (wielokrotnego)
+☒ Nadciśnienie tętnicze krwi
+☒ Zawał mięśnia sercowego
+☒ Udar mózgu
+☒ Choroba niedokrwienna serca
+☒ Miażdżyca tętnic obwodowych
+☒ Zaburzenie rytmu serca
+☒ Choroba Buergera
+□ Hipercholesterolemia
+□ Tętniak aorty
+□ Palenie nie powoduje chorób kardiologicznych</p></li>
+<li><p>Czy palenie papierosów powoduje choroby układu pokarmowego?
+☒ Tak
+□ Nie
+□ Nie wiem</p></li>
+<li><p>Jaki według Ciebie ma wpływ palenie papierosów na narządy zmysłów? (wielokrotnego)
+☒ Upośledza węch i smak
+☒ Powoduje podrażnienie spojówek
+☒ Obniża apetyt
+☒ Niszczy struny głosowe
+☒ Zmniejsza ostrość wzroku
+□ Palenie nie ma negatywnego wpływu na narządy zmysłu.</p></li>
+<li><p>Jak oceniasz swoją wiedzę na temat palenia papierosów i jego wpływu na zdrowie człowieka?
+□ Bardzo dobrze
+□ Dobrze
+□ Przeciętnie
+□ Źle</p></li>
+<li><p>Czy wzorce sięgania po tytoń wyniosłaś/wyniosłeś z domu rodzinnego
+□ Tak
+□ Nie
+□ Nie dotyczy</p></li>
+</ol>
+<p>Prawidłowe odpowiedzi zaznaczono ☒</p>
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="przykłady-badań-ankietowych.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="łagodne-wprowadzenie-z-jamovi.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
